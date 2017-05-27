@@ -31,6 +31,6 @@ Because the tool matches the project_path string in the Info.plist stored in the
 
 For example, you may specify MyProject_4.5.0 only instead of the full path, like the following:
 
-    #python callee.py MyProject_4.5.0 -[KeyboardViewController \loadMainView]
+    *#python callee.py MyProject_4.5.0 -[KeyboardViewController \loadMainView]*
   
 But be ware that, if there are multiple projects containing the same partial name, the tool will use the first one it finds, which may not be the one you expect.
